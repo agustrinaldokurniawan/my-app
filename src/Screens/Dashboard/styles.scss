@@ -1,0 +1,32 @@
+.col-stat {
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+
+  &-icon {
+    border-radius: 10px;
+  }
+
+  &-icon * {
+    font-size: 30px;
+  }
+
+  &-text h2 {
+    font-weight: 700;
+  }
+
+  &-text h2,
+  p {
+    margin-bottom: 0;
+  }
+}
+
+.chart-container {
+  padding: 40px;
+  border-radius: 20px;
+  background-color: white;
+}
+
+.table-container {
+  @extend .chart-container;
+}
